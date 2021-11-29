@@ -419,13 +419,5 @@ class HashTable {
         }
         return string;
     }
-
-    public static void main(String[] args) {
-        HashTable ht = new HashTable(11);
-
-        int[] array = {2,14,12,16,20,19,4,17};
-        int num = ht.hash(array,7);
-
-    }
 }
 //HashTable-------------------------------------------------------------------------------------------------------------
